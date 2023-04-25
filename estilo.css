@@ -109,7 +109,7 @@ html{
     background-color: #49ACE9;
 }
 .sobremi{
-    background-color: #1e2326;
+    background-color: #07273B;
     color: #fff;
     padding: 50px 20px;
 }
@@ -128,11 +128,14 @@ html{
     font: 18px;
     line-height: 22px;
     margin-bottom: 20px;
+    font-family: 'Inconsolata', monospace;
 }
 .sobremi .contenido-seccion p span{
-    color: #1CB698;
+    color: #49ACE9;
     font-weight: bold;
+    font-family: 'Inconsolata', monospace;
 }
+/*
 .sobremi .fila{
     display: flex;
 }
@@ -184,6 +187,7 @@ html{
     font-size: 30px;
     margin-bottom: 10px;
 }
+*/
 .sobremi button{
     cursor: pointer;
     background-color: transparent;
@@ -196,6 +200,7 @@ html{
     color: #fff;
     position: relative;
     z-index: 10;
+    font-family: 'Inconsolata', monospace;
 }
 .sobremi button .overlay{
     position: absolute;
@@ -203,7 +208,7 @@ html{
     left: 0;
     width: 0;
     height: 100%;
-    background-color: #1CB698;
+    background-color: #49ACE9;
     z-index: -1;
     transition: 1s;
 }
@@ -212,7 +217,7 @@ html{
 }
 /* SECCION S K I L L S */
 .skills{
-    background-color: #252A2E;
+    background-color: #062132;
     color: #fff;
     padding: 50px 20px;
 }
@@ -233,17 +238,41 @@ html{
 .skills .fila .col{
     width: 50%;
     padding: 0 20px;
+
 }
 .skills .fila .col h3{
     font-size: 28px;
     font-family: 'Inconsolata', monospace;
     margin-bottom: 25px;
+    margin-left: 20px;
+
 }
 .skills .skill > span{
     font-weight: bold;
     display: block;
     margin-bottom: 10px;
+    font-family: 'Inconsolata', monospace;
+    font-size: 22px;
+    margin-bottom: 20px;
 }
+.skills .skill a{
+    color: #49ACE9;
+    display: inline-block;
+    text-decoration: none;
+    margin: 10px 10px;
+    size: 25px 20px;
+    transition: .3s;
+    margin-left: 25px;
+    margin-bottom: 20px;
+} 
+.skills .skill .desc-skill{
+    font-weight: bold;
+    display: inline-block;
+    font-family: 'Inconsolata', monospace;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+/*
 .skills .skill .barra-skill{
     height: 8px;
     width: 80%;
@@ -268,8 +297,10 @@ html{
     text-align: center;
     top: -17px;
     right: -15px;
+    font-family: 'Inconsolata', monospace;
     font-size: 14px;
 }
+*/
 /* Estas clases se agregaran dinamicamente mediante javascript */
 .skills .skill .javascript{
     width: 0%;
@@ -523,6 +554,11 @@ html{
 .portfolio .galeria .proyecto .overlay:hover h3{
     margin-bottom: 0px;
 }
+.portfolio .galeria .proyecto{
+    margin-top: 5px;
+    font-size: 20px;
+    font-family: 'Inconsolata', monospace;
+}
 /* SECCION CONTACTO */
 .contacto{
     background-image: url(img/contact_bg.png);
@@ -630,6 +666,9 @@ footer .redes a{
     margin: 40px 5px;
     font-size: 20px;
     transition: .3s;
+}
+footer .redes a:hover{
+    background-color: #49ACE9;
 }
 footer .arriba{
     display: block;
